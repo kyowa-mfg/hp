@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+  font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック',sans-serif;
+  font-size:14px;
+  line-height:20px;
+  color:#595858;
+  /*border-top:1px #b59497 solid;*/
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,p{
+  border: 0;margin: 0;padding: 0;/*font-size: 100%;*/font-weight: normal;font-style: normal;text-decoration: none;
+}
+
+/* A */
+a{text-decoration: none;outline:none;}
+
+table{border-collapse:collapse;border-spacing:0;}
+li {list-style:none;}
+img{border:none;}
+
+.fl{float:left;}
+.fr{float:right;}
+
+.clearfix:after {   
+    content: ".";   
+    clear: both;   
+    height: 0;   
+    visibility: hidden;   
+    display: block;   
+}            /* 这是对Firefox进行的处理，因为Firefox支持生成元素，而IE所有版本都不支持生成元素 */   
+.clearfix {   
+    display: inline-block;        
+}                /* 这是对 Mac 上的IE浏览器进行的处理 */   
+/* Hides from IE-mac \*/   
+* html .clearfix {height: 1%;}        /* 这是对 win 上的IE浏览器进行的处理 */   
+.clearfix {display: block;}        /* 这是对display: inline-block;进行的修改，重置为区块元素*/   
+/* End hide from IE-mac */  
+
+hr.cb,.cb{
+  visibility:hidden;
+  height:0;
+  border:none;
+  clear:both;
+  font-size:1px;
+  line-height:0;
+  overflow:hidden;
+  margin:0;
+}
+
+.mt10{margin-top:10px;}
+.mt15{margin-top:15px;}
+.mt16{margin-top:16px;}
+.mt20{margin-top:20px;}
+.mt25{margin-top:25px;}
+.mt30{margin-top:30px;}
+.mt50{margin-top:50px;}
+.mr15{margin-right:15px;}
+.mr19{margin-right:19px;}
+.mr20{margin-right:20px;}
+.mr26{margin-right:26px;}
+.mr50{margin-right:50px;}
+.mr66{margin-right:66px;}
+.mb15{margin-bottom:15px;}
+.mb17{margin-bottom:17px;}
+.mb20{margin-bottom:20px;}
+.mb25{margin-bottom:25px;}
+.mb33{margin-bottom:33px;}
+.mb40{margin-bottom:40px;}
+.mb47{margin-bottom:47px;}
+.mb50{margin-bottom:50px;}
+.mb54{margin-bottom:54px;}
+.mb60{margin-bottom:60px;}
+.mb70{margin-bottom:70px;}
+.mb60{margin-bottom:60px;}
+.mb250{margin-bottom:250px;}
+.ml8{margin-left:8px;}
+.ml12{margin-left:12px;}
+.ml29{margin-left:29px;}
+
+.pt40{padding-top:40px;}
+.pr5{padding-right:5px;}
+.pr15{padding-right:15px;}
+.pl10{padding-left:10px;}
+.pl27{padding-left:27px;}
+.pl60{padding-left:60px;}
+
+.fSize11{font-size:11px;}
+.fSize12{font-size:12px;}
+.fSize16{font-size:16px;}
+.fSize18{font-size:18px;}
+.fontWt{font-weight:bold;}
+.fontNr{font-weight:normal;}
+
+.VAtop{
+    vertical-align: top;
+}
+
+.Height45{height:45px;}
+.line_H26{line-height:26px;}
+.line_H45{line-height:45px;}
+
+.Width510{width:510px;}
+.Width884{width:884px;}
+.w525 {
+  border: 1px solid #78CCE0;
+  text-indent:0.5em;
+  font-size:14px;
+  height:33px;
+  line-height:33px;
+  padding: 2px 2px 2px 0;
+  width: 525px;
+}
+.h130 {
+  border: 1px solid #78CCE0;
+  font-size:14px;
+  padding: 2px 0 2px 0.5em;
+  width: 520px;
+  height:140px;
+  line-height:25px;
+}
